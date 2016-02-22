@@ -21,7 +21,19 @@ The server is a Jar file, e.g., selenium-server-standalone-2.52.0.jar.
 ## Downloading 3rd Party Browser Drivers
 
 The script assumes that the drivers for Internet Explorer and Chrome are 
-downloaded to subdirectory `32\`.
+downloaded to subdirectory `32\`, e.g.,
 
+```
+32/
+  chromedriver.exe
+  IEDriverServer.exe
+```
 
+The drivers can be downloaded from 
+[http://www.seleniumhq.org/download/](http://www.seleniumhq.org/download/).
+
+Just for convenience, you can download them from the URLs below,
+
+.[IE Driver](http://selenium-release.storage.googleapis.com/2.52/IEDriverServer_Win32_2.52.0.zip)
+.[Chrome Driver](https://chromedriver.storage.googleapis.com/index.html?path=2.21/)
 
