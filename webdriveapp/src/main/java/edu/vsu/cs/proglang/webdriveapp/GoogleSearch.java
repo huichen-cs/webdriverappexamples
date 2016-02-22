@@ -102,16 +102,10 @@ public class GoogleSearch {
 
 			log.log(Level.INFO, "openned URL " + GOOGLE_URL + ".");
 		} catch (MalformedURLException e) {
-			log.log(Level.SEVERE,
-					"Encountered malformed URL: " + e.getMessage(), e);
 			throw new RuntimeException(e); // stop execution
 		} catch (UnreachableBrowserException e) {
-			log.log(Level.SEVERE,
-					"Cannot reach designated web browser: " + e.getMessage(), e);
 			throw new RuntimeException(e); // stop execution
 		} catch (WebDriverException e) {
-			log.log(Level.SEVERE,
-					"Encountered an error in WebDriver: " + e.getMessage(), e);
 			throw new RuntimeException(e); // stop execution
 		}
 	}
@@ -140,10 +134,6 @@ public class GoogleSearch {
 			log.log(Level.INFO,
 					"hit ENTER key and search should be progress ...");
 		} catch (NoSuchElementException e) {
-			log.log(Level.SEVERE,
-					"Cannot find web element with id \"lst-ib\". "
-							+ "Did Google update its web search page? "
-							+ e.getMessage(), e);
 			throw new RuntimeException(e); // stop execution
 		}
 	}
