@@ -24,7 +24,7 @@ The script assumes that the drivers for Internet Explorer and Chrome are
 downloaded to subdirectory `32\`, e.g.,
 
 ```
-32/
+32\
   chromedriver.exe
   IEDriverServer.exe
 ```
@@ -34,6 +34,6 @@ The drivers can be downloaded from
 
 Just for convenience, you can download them from the URLs below,
 
-.[IE Driver](http://selenium-release.storage.googleapis.com/2.52/IEDriverServer_Win32_2.52.0.zip)
-.[Chrome Driver](https://chromedriver.storage.googleapis.com/index.html?path=2.21/)
+* [IE Driver](http://selenium-release.storage.googleapis.com/2.52/IEDriverServer_Win32_2.52.0.zip)
+* [Chrome Driver](https://chromedriver.storage.googleapis.com/index.html?path=2.21/)
 
