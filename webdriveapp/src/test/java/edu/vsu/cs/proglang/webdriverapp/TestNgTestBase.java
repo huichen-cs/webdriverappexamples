@@ -1,4 +1,4 @@
-package edu.vsu.cs.proglang.webdriveapp;
+package edu.vsu.cs.proglang.webdriverapp;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -9,7 +9,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 
 import ru.stqa.selenium.factory.WebDriverFactory;
-import edu.vsu.cs.proglang.webdriveapp.util.PropertyLoader;
+import edu.vsu.cs.proglang.webdriverapp.util.PropertyLoader;
 
 /**
  * Base class for all the TestNG-based test classes

@@ -1,11 +1,11 @@
-package edu.vsu.cs.proglang.webdriveapp;
+package edu.vsu.cs.proglang.webdriverapp;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import edu.vsu.cs.proglang.webdriveapp.pages.HomePage;
+import edu.vsu.cs.proglang.webdriverapp.pages.HomePage;
 
 public class SampleTestNgTest extends TestNgTestBase {
 

@@ -1,4 +1,4 @@
-package edu.vsu.cs.proglang.webdriveapp;
+package edu.vsu.cs.proglang.webdriverapp;
 
 import java.net.MalformedURLException;
 import java.net.URL;

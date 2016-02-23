@@ -1,4 +1,4 @@
-package edu.vsu.cs.proglang.webdriveapp.util;
+package edu.vsu.cs.proglang.webdriverapp.util;
 
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.Platform;
